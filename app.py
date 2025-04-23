@@ -6,6 +6,8 @@ from langchain.vectorstores import Pinecone as LangchainPinecone  # Using alias 
 from dotenv import load_dotenv
 import os
 
+
+
 app = Flask(__name__)
 
 load_dotenv()
